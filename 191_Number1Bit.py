@@ -10,12 +10,8 @@
 """
 
 def hammingWeight(self, n):
-    count = 0
     binary = format(n,'b')
-    for i in binary:
-        if i == '1':
-            count += 1
-    return count
+    return binary.count('1')
 
 n = int(input())
 print(hammingWeight("",n))
