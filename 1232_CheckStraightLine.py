@@ -13,4 +13,4 @@ def checkStraightLine(coordinates):
     for x3, y3 in coordinates[2:]:
 	    if (y2 - y1) * (x3 - x1) != (y3 - y1) * (x2 - x1):
 		    return False
-    return True
+    # return True // uncomment this (it threw an error when run in local editor, so i comment it.)
