@@ -6,6 +6,7 @@
     :type nums: List[int]
     :rtype: int
 
+    This following codes are modified for use in local editor. It may be slighly different from submission code.
 """
 def singleNumber(nums):
         uniqNum = 0
